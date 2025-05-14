@@ -1,6 +1,6 @@
 <h2>Transliteration using Recurrent Neural Networks</h2>
 
-[Link to the wandb.ai report](https://wandb.ai/saish/Deep-Learning-RNN/reports/CS6910-Assignment-3--Vmlldzo2OTUwNjI)
+[Link to the wandb.ai report](https://wandb.ai/cs22m088-iit-madras/DA6401_Assignment_3/reports/DA6401-Assignment-3--VmlldzoxMjc2NzEwMQ?accessToken=u1nhkunxydtxbfbzbd64uasu6k5wwuk07njcpokrlghp1ad8ftv0zmlswbpnem50)
 
 **Usage**
 
