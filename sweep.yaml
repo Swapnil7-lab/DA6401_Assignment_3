@@ -1,0 +1,26 @@
+program: main.py
+method: random
+metric:
+  name: val_categorical_accuracy
+  goal: maximize
+parameters:
+  Cell_Type:
+    values: ["RNN", "LSTM", "GRU"]
+  n_enc_dec_layers:
+    values: [1, 2, 3]
+  beam_size:
+    values: [1, 5, 10]
+  hidden_layer_size:
+    values: [128, 256]
+  embedding_size:
+    values: [32, 64]
+  epochs:
+    values: [5, 10, 20]
+  batch_size:
+    values: [32, 64]
+  optimizer:
+    values: ["Adam", "Nadam"]
+  dropout:
+    values: [0.0, 0.2, 0.4]
+  l_rate:
+    values: [0.01, 0.001]
